@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+}
+
+body {
+    font-size: 100%;
+    background-color: #838383;
+    background-image: url(../img/backgroundimg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+   }
+
+.header {
+    display: flex;
+    justify-content: center;
+    padding-top: 10.0rem;
+}
+
+.header-logo {
+    height: 8.0rem;
+}
+
+.content {
+    margin-top: 4.0rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 12.0rem;
+    align-items: center;
+}
+
+.content-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-login-title {
+    font-size: 2.0rem;
+    font-weight: 700;
+    margin-bottom: 2.0rem;
+    color: #FFFFFF;
+}
+
+.content-login-inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-login-inputs-email {
+    padding: 1.4rem;
+    padding-right: 10.0rem;
+    margin-bottom: .6rem;
+    border-width: 0rem;
+    border-radius: 1.0rem;
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+.content-login-inputs-password {
+    padding: 1.4rem;
+    padding-right: 10.0rem;
+    margin-bottom: 1.0rem;
+    border-width: 0rem;
+    border-radius: 1.0rem;
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+.content-login-inputs-button {
+    background-color: #FCD70D;
+    padding: .9rem;
+    padding-left: 10.8rem;
+    padding-right: 10.8rem;
+    margin-bottom: .8rem;
+    border-width: 0rem;
+    border-radius: 1.0rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.content-login-inputs-forgotpassword {
+    font-size: 1.0rem;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.content-alternative {
+    font-size: 2.0rem;
+    color: #FFFFFF;
+}
+
+.content-subscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding-right: 1.4rem;
+    padding-left: 1.4rem;
+    padding-top: 5.0rem;
+    padding-bottom: 6.0rem;
+    border-width: 0rem;
+    border-radius: 2.5rem;
+}
+
+.content-subscribe-title {
+    font-size: 2.0rem;
+    font-weight: 700;
+    margin-bottom: 2.0rem;
+    color: #000000;
+}
+
+.content-subscribe-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-subscribe-input-email {
+    background-color: #F2F2F2;
+    padding: 1.4rem;
+    padding-right: 9.5rem;
+    margin-bottom: .6rem;
+    border-width: 0rem;
+    border-radius: 1.0rem;
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+.content-subscribe-input-password {
+    background-color: #F2F2F2;
+    padding: 1.4rem;
+    padding-right: 9.5rem;
+    margin-bottom: .6rem;
+    border-width: 0rem;
+    border-radius: 1.0rem;
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+.content-subscribe-input-confirmpassword {
+    background-color: #F2F2F2;
+    padding: 1.4rem;
+    padding-right: 9.5rem;
+    margin-bottom: 1.0rem;
+    border-width: 0rem;
+    border-radius: 1.0rem;
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+.content-subscribe-input-button {
+    background-color: #000000;
+    padding: 1.0rem;
+    padding-left: 8.3rem;
+    padding-right: 8.3rem;
+    margin-bottom: .8rem;
+    border-width: 0rem;
+    border-radius: 1.0rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+[type=email], [type=password] {
+    width: 100%;
+}
